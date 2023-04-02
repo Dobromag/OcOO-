@@ -1,0 +1,15 @@
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  text-align: center;
+}
+th {
+  background-color: #b6b2b2;
+}
+tr.usdt {
+  background-color: rgb(11, 243, 11);
+}
+tr.top {
+  background-color: blue;
+}

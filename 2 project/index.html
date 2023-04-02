@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+
+  <title></title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/header/b953d40d441e1a4236779fa938b097e5.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse ms-3 float-left" id="navbarSupportedContent">
+          <div class="col">
+            <form class="d-flex me-3 my-2">
+              <i class="bi bi-search" aria-hidden="true"></i>
+              <input class="form-control search" type="search" placeholder="Поиск..." aria-label="Search">
+            </form>
+          </div>
+          <div class="col">
+            <ul class="navbar-nav justify-content-end">
+              <li class="nav-item me-3 my-2">
+                <a class="nav-link text-center" aria-current="page" href="#">Вход</a>
+              </li>
+
+              <li class="nav-item my-2">
+                <a class="nav-link text-center" href="#" tabindex="-1" aria-disabled="true">Регистрация</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      </div>
+    </nav>
+
+  </header>
+  <section class="filter">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-2 filter_1 flex align-items-center">
+          <select class="form-select filter_icon" aria-label="Default select example">
+            <option selected>Фильтры</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+
+        <div class="col-md-7 filter_2">
+          <form class="d-flex">
+            <i class="bi bi-search" aria-hidden="true"></i>
+            <input class="form-control search" type="search" placeholder="Поиск..." aria-label="Search">
+          </form>
+        </div>
+
+        <div class="col-md-3 filter_3 flex align-items-center">
+          <select class="form-select select_icon" aria-label="Default select example">
+            <option selected>По умолчанию</option>
+            <option value="1">По дате</option>
+            <option value="2">Дешевле</option>
+            <option value="3">Дороже</option>
+            <option value="3">По популярности</option>
+          </select>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <section class="main">
+    <div class="container">
+      <div class="row">
+
+        <div class="col main_col my-4">
+          <div class="main_body">
+            <div class="main_image">
+              <img src="/img/main/фотка.png" alt="" style="width: 100%;">
+            </div>
+            <div class="main_block">
+              <h6>Без слов</h6>
+              <div class="block flex">
+                <a href="" class="small_img me-3">
+                  <img src="/img/main/маленькая фотка звезды.png" alt="">
+                </a>
+                <div class="block_item">
+                  <div class="flex flex-column">
+                    <p class="size_20">Настя Ивлеева</p>
+                    <p class="size_20">Вячеславовна</p>
+                  </div>
+                  <p class="item flex align-items-center size_16">проверено</p>
+                </div>
+              </div>
+              <div class="subblock subblock_1 flex ">
+                <p class="size_20">Редкость:</p>
+                <p class="item text-center size_16">уникальная</p>
+              </div>
+              <div class="subblock subblock_2 flex">
+                <p class="size_20">Цена</p>
+                <p class="item text-center size_16">от 500₽</p>
+              </div>
+              <div class="flex justify-content-center">
+                <a class="main_block_button text-center" href="">Купить</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col main_col my-4">
+          <div class="main_body">
+            <div class="main_image">
+              <img src="/img/main/фотка.png" alt="" style="width: 100%;">
+            </div>
+            <div class="main_block">
+              <h6>Без слов</h6>
+              <div class="block flex">
+                <a href="" class="small_img me-3">
+                  <img src="/img/main/маленькая фотка звезды.png" alt="">
+                </a>
+                <div class="block_item">
+                  <div class="flex flex-column">
+                    <p class="size_20">Настя Ивлеева</p>
+                    <p class="size_20">Вячеславовна</p>
+                  </div>
+                  <p class="item flex align-items-center size_16">проверено</p>
+                </div>
+              </div>
+              <div class="subblock subblock_1 flex ">
+                <p class="size_20">Редкость:</p>
+                <p class="item text-center size_16">уникальная</p>
+              </div>
+              <div class="subblock subblock_2 flex">
+                <p class="size_20">Цена</p>
+                <p class="item text-center size_16">от 500₽</p>
+              </div>
+              <div class="flex justify-content-center">
+                <a class="main_block_button text-center" href="">Купить</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col main_col my-4">
+          <div class="main_body">
+            <div class="main_image">
+              <img src="/img/main/фотка.png" alt="" style="width: 100%;">
+            </div>
+            <div class="main_block">
+              <h6>Без слов</h6>
+              <div class="block flex">
+                <a href="" class="small_img me-3">
+                  <img src="/img/main/маленькая фотка звезды.png" alt="">
+                </a>
+                <div class="block_item">
+                  <div class="flex flex-column">
+                    <p class="size_20">Настя Ивлеева</p>
+                    <p class="size_20">Вячеславовна</p>
+                  </div>
+                  <p class="item flex align-items-center size_16">проверено</p>
+                </div>
+              </div>
+              <div class="subblock subblock_1 flex ">
+                <p class="size_20">Редкость:</p>
+                <p class="item text-center size_16">уникальная</p>
+              </div>
+              <div class="subblock subblock_2 flex">
+                <p class="size_20">Цена</p>
+                <p class="item text-center size_16">от 500₽</p>
+              </div>
+              <div class="flex justify-content-center">
+                <a class="main_block_button text-center" href="">Купить</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col main_col my-4">
+          <div class="main_body">
+            <div class="main_image">
+              <img src="/img/main/фотка.png" alt="" style="width: 100%;">
+            </div>
+            <div class="main_block">
+              <h6>Без слов</h6>
+              <div class="block flex">
+                <a href="" class="small_img me-3">
+                  <img src="/img/main/маленькая фотка звезды.png" alt="">
+                </a>
+                <div class="block_item">
+                  <div class="flex flex-column">
+                    <p class="size_20">Настя Ивлеева</p>
+                    <p class="size_20">Вячеславовна</p>
+                  </div>
+                  <p class="item flex align-items-center size_16">проверено</p>
+                </div>
+              </div>
+              <div class="subblock subblock_1 flex ">
+                <p class="size_20">Редкость:</p>
+                <p class="item text-center size_16">уникальная</p>
+              </div>
+              <div class="subblock subblock_2 flex">
+                <p class="size_20">Цена</p>
+                <p class="item text-center size_16">от 500₽</p>
+              </div>
+              <div class="flex justify-content-center">
+                <a class="main_block_button text-center" href="">Купить</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col main_col my-4">
+          <div class="main_body">
+            <div class="main_image">
+              <img src="/img/main/фотка.png" alt="" style="width: 100%;">
+            </div>
+            <div class="main_block">
+              <h6>Без слов</h6>
+              <div class="block flex">
+                <a href="" class="small_img me-3">
+                  <img src="/img/main/маленькая фотка звезды.png" alt="">
+                </a>
+                <div class="block_item">
+                  <div class="flex flex-column">
+                    <p class="size_20">Настя Ивлеева</p>
+                    <p class="size_20">Вячеславовна</p>
+                  </div>
+                  <p class="item flex align-items-center size_16">проверено</p>
+                </div>
+              </div>
+              <div class="subblock subblock_1 flex ">
+                <p class="size_20">Редкость:</p>
+                <p class="item text-center size_16">уникальная</p>
+              </div>
+              <div class="subblock subblock_2 flex">
+                <p class="size_20">Цена</p>
+                <p class="item text-center size_16">от 500₽</p>
+              </div>
+              <div class="flex justify-content-center">
+                <a class="main_block_button text-center" href="">Купить</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col main_col my-4">
+          <div class="main_body">
+            <div class="main_image">
+              <img src="/img/main/фотка.png" alt="" style="width: 100%;">
+            </div>
+            <div class="main_block">
+              <h6>Без слов</h6>
+              <div class="block flex">
+                <a href="" class="small_img me-3">
+                  <img src="/img/main/маленькая фотка звезды.png" alt="">
+                </a>
+                <div class="block_item">
+                  <div class="flex flex-column">
+                    <p class="size_20">Настя Ивлеева</p>
+                    <p class="size_20">Вячеславовна</p>
+                  </div>
+                  <p class="item flex align-items-center size_16">проверено</p>
+                </div>
+              </div>
+              <div class="subblock subblock_1 flex ">
+                <p class="size_20">Редкость:</p>
+                <p class="item text-center size_16">уникальная</p>
+              </div>
+              <div class="subblock subblock_2 flex">
+                <p class="size_20">Цена</p>
+                <p class="item text-center size_16">от 500₽</p>
+              </div>
+              <div class="flex justify-content-center">
+                <a class="main_block_button text-center" href="">Купить</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col main_col my-4">
+          <div class="main_body">
+            <div class="main_image">
+              <img src="/img/main/фотка.png" alt="" style="width: 100%;">
+            </div>
+            <div class="main_block">
+              <h6>Без слов</h6>
+              <div class="block flex">
+                <a href="" class="small_img me-3">
+                  <img src="/img/main/маленькая фотка звезды.png" alt="">
+                </a>
+                <div class="block_item">
+                  <div class="flex flex-column">
+                    <p class="size_20">Настя Ивлеева</p>
+                    <p class="size_20">Вячеславовна</p>
+                  </div>
+                  <p class="item flex align-items-center size_16">проверено</p>
+                </div>
+              </div>
+              <div class="subblock subblock_1 flex ">
+                <p class="size_20">Редкость:</p>
+                <p class="item text-center size_16">уникальная</p>
+              </div>
+              <div class="subblock subblock_2 flex">
+                <p class="size_20">Цена</p>
+                <p class="item text-center size_16">от 500₽</p>
+              </div>
+              <div class="flex justify-content-center">
+                <a class="main_block_button text-center" href="">Купить</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col main_col my-4">
+          <div class="main_body">
+            <div class="main_image">
+              <img src="/img/main/фотка.png" alt="" style="width: 100%;">
+            </div>
+            <div class="main_block">
+              <h6>Без слов</h6>
+              <div class="block flex">
+                <a href="" class="small_img me-3">
+                  <img src="/img/main/маленькая фотка звезды.png" alt="">
+                </a>
+                <div class="block_item">
+                  <div class="flex flex-column">
+                    <p class="size_20">Настя Ивлеева</p>
+                    <p class="size_20">Вячеславовна</p>
+                  </div>
+                  <p class="item flex align-items-center size_16">проверено</p>
+                </div>
+              </div>
+              <div class="subblock subblock_1 flex ">
+                <p class="size_20">Редкость:</p>
+                <p class="item text-center size_16">уникальная</p>
+              </div>
+              <div class="subblock subblock_2 flex">
+                <p class="size_20">Цена</p>
+                <p class="item text-center size_16">от 500₽</p>
+              </div>
+              <div class="flex justify-content-center">
+                <a class="main_block_button text-center" href="">Купить</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col main_col my-4">
+          <div class="main_body">
+            <div class="main_image">
+              <img src="/img/main/фотка.png" alt="" style="width: 100%;">
+            </div>
+            <div class="main_block">
+              <h6>Без слов</h6>
+              <div class="block flex">
+                <a href="" class="small_img me-3">
+                  <img src="/img/main/маленькая фотка звезды.png" alt="">
+                </a>
+                <div class="block_item">
+                  <div class="flex flex-column">
+                    <p class="size_20">Настя Ивлеева</p>
+                    <p class="size_20">Вячеславовна</p>
+                  </div>
+                  <p class="item flex align-items-center size_16">проверено</p>
+                </div>
+              </div>
+              <div class="subblock subblock_1 flex ">
+                <p class="size_20">Редкость:</p>
+                <p class="item text-center size_16">уникальная</p>
+              </div>
+              <div class="subblock subblock_2 flex">
+                <p class="size_20">Цена</p>
+                <p class="item text-center size_16">от 500₽</p>
+              </div>
+              <div class="flex justify-content-center">
+                <a class="main_block_button text-center" href="">Купить</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col main_col my-4">
+          <div class="main_body">
+            <div class="main_image">
+              <img src="/img/main/фотка.png" alt="" style="width: 100%;">
+            </div>
+            <div class="main_block">
+              <h6>Без слов</h6>
+              <div class="block flex">
+                <a href="" class="small_img me-3">
+                  <img src="/img/main/маленькая фотка звезды.png" alt="">
+                </a>
+                <div class="block_item">
+                  <div class="flex flex-column">
+                    <p class="size_20">Настя Ивлеева</p>
+                    <p class="size_20">Вячеславовна</p>
+                  </div>
+                  <p class="item flex align-items-center size_16">проверено</p>
+                </div>
+              </div>
+              <div class="subblock subblock_1 flex ">
+                <p class="size_20">Редкость:</p>
+                <p class="item text-center size_16">уникальная</p>
+              </div>
+              <div class="subblock subblock_2 flex">
+                <p class="size_20">Цена</p>
+                <p class="item text-center size_16">от 500₽</p>
+              </div>
+              <div class="flex justify-content-center">
+                <a class="main_block_button text-center" href="">Купить</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col main_col my-4">
+          <div class="main_body">
+            <div class="main_image">
+              <img src="/img/main/фотка.png" alt="" style="width: 100%;">
+            </div>
+            <div class="main_block">
+              <h6>Без слов</h6>
+              <div class="block flex">
+                <a href="" class="small_img me-3">
+                  <img src="/img/main/маленькая фотка звезды.png" alt="">
+                </a>
+                <div class="block_item">
+                  <div class="flex flex-column">
+                    <p class="size_20">Настя Ивлеева</p>
+                    <p class="size_20">Вячеславовна</p>
+                  </div>
+                  <p class="item flex align-items-center size_16">проверено</p>
+                </div>
+              </div>
+              <div class="subblock subblock_1 flex ">
+                <p class="size_20">Редкость:</p>
+                <p class="item text-center size_16">уникальная</p>
+              </div>
+              <div class="subblock subblock_2 flex">
+                <p class="size_20">Цена</p>
+                <p class="item text-center size_16">от 500₽</p>
+              </div>
+              <div class="flex justify-content-center">
+                <a class="main_block_button text-center" href="">Купить</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col main_col my-4">
+          <div class="main_body">
+            <div class="main_image">
+              <img src="/img/main/фотка.png" alt="" style="width: 100%;">
+            </div>
+            <div class="main_block">
+              <h6>Без слов</h6>
+              <div class="block flex">
+                <a href="" class="small_img me-3">
+                  <img src="/img/main/маленькая фотка звезды.png" alt="">
+                </a>
+                <div class="block_item">
+                  <div class="flex flex-column">
+                    <p class="size_20">Настя Ивлеева</p>
+                    <p class="size_20">Вячеславовна</p>
+                  </div>
+                  <p class="item flex align-items-center size_16">проверено</p>
+                </div>
+              </div>
+              <div class="subblock subblock_1 flex ">
+                <p class="size_20">Редкость:</p>
+                <p class="item text-center size_16">уникальная</p>
+              </div>
+              <div class="subblock subblock_2 flex">
+                <p class="size_20">Цена</p>
+                <p class="item text-center size_16">от 500₽</p>
+              </div>
+              <div class="flex justify-content-center">
+                <a class="main_block_button text-center" href="">Купить</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col main_col my-4">
+          <div class="main_body">
+            <div class="main_image">
+              <img src="/img/main/фотка.png" alt="" style="width: 100%;">
+            </div>
+            <div class="main_block">
+              <h6>Без слов</h6>
+              <div class="block flex">
+                <a href="" class="small_img me-3">
+                  <img src="/img/main/маленькая фотка звезды.png" alt="">
+                </a>
+                <div class="block_item">
+                  <div class="flex flex-column">
+                    <p class="size_20">Настя Ивлеева</p>
+                    <p class="size_20">Вячеславовна</p>
+                  </div>
+                  <p class="item flex align-items-center size_16">проверено</p>
+                </div>
+              </div>
+              <div class="subblock subblock_1 flex ">
+                <p class="size_20">Редкость:</p>
+                <p class="item text-center size_16">уникальная</p>
+              </div>
+              <div class="subblock subblock_2 flex">
+                <p class="size_20">Цена</p>
+                <p class="item text-center size_16">от 500₽</p>
+              </div>
+              <div class="flex justify-content-center">
+                <a class="main_block_button text-center" href="">Купить</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col main_col my-4">
+          <div class="main_body">
+            <div class="main_image">
+              <img src="/img/main/фотка.png" alt="" style="width: 100%;">
+            </div>
+            <div class="main_block">
+              <h6>Без слов</h6>
+              <div class="block flex">
+                <a href="" class="small_img me-3">
+                  <img src="/img/main/маленькая фотка звезды.png" alt="">
+                </a>
+                <div class="block_item">
+                  <div class="flex flex-column">
+                    <p class="size_20">Настя Ивлеева</p>
+                    <p class="size_20">Вячеславовна</p>
+                  </div>
+                  <p class="item flex align-items-center size_16">проверено</p>
+                </div>
+              </div>
+              <div class="subblock subblock_1 flex ">
+                <p class="size_20">Редкость:</p>
+                <p class="item text-center size_16">уникальная</p>
+              </div>
+              <div class="subblock subblock_2 flex">
+                <p class="size_20">Цена</p>
+                <p class="item text-center size_16">от 500₽</p>
+              </div>
+              <div class="flex justify-content-center">
+                <a class="main_block_button text-center" href="">Купить</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col main_col my-4">
+          <div class="main_body">
+            <div class="main_image">
+              <img src="/img/main/фотка.png" alt="" style="width: 100%;">
+            </div>
+            <div class="main_block">
+              <h6>Без слов</h6>
+              <div class="block flex">
+                <a href="" class="small_img me-3">
+                  <img src="/img/main/маленькая фотка звезды.png" alt="">
+                </a>
+                <div class="block_item">
+                  <div class="flex flex-column">
+                    <p class="size_20">Настя Ивлеева</p>
+                    <p class="size_20">Вячеславовна</p>
+                  </div>
+                  <p class="item flex align-items-center size_16">проверено</p>
+                </div>
+              </div>
+              <div class="subblock subblock_1 flex ">
+                <p class="size_20">Редкость:</p>
+                <p class="item text-center size_16">уникальная</p>
+              </div>
+              <div class="subblock subblock_2 flex">
+                <p class="size_20">Цена</p>
+                <p class="item text-center size_16">от 500₽</p>
+              </div>
+              <div class="flex justify-content-center">
+                <a class="main_block_button text-center" href="">Купить</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col main_col my-4">
+          <div class="main_body">
+            <div class="main_image">
+              <img src="/img/main/фотка.png" alt="" style="width: 100%;">
+            </div>
+            <div class="main_block">
+              <h6>Без слов</h6>
+              <div class="block flex">
+                <a href="" class="small_img me-3">
+                  <img src="/img/main/маленькая фотка звезды.png" alt="">
+                </a>
+                <div class="block_item">
+                  <div class="flex flex-column">
+                    <p class="size_20">Настя Ивлеева</p>
+                    <p class="size_20">Вячеславовна</p>
+                  </div>
+                  <p class="item flex align-items-center size_16">проверено</p>
+                </div>
+              </div>
+              <div class="subblock subblock_1 flex ">
+                <p class="size_20">Редкость:</p>
+                <p class="item text-center size_16">уникальная</p>
+              </div>
+              <div class="subblock subblock_2 flex">
+                <p class="size_20">Цена</p>
+                <p class="item text-center size_16">от 500₽</p>
+              </div>
+              <div class="flex justify-content-center">
+                <a class="main_block_button text-center" href="">Купить</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        
+        
+      </div>
+    </div>
+
+  </section>
+  <section>
+    <div class="container">
+      <div class="col-12">
+        <nav class="flex" aria-label="">
+          <ul class="pagination mx-auto">
+            <li class="pagination-item">
+              <a class="pagination-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="pagination-item active"><a class="pagination-link" href="#">1</a></li>
+            <li class="pagination-item"><a class="pagination-link" href="#">2</a></li>
+            <li class="pagination-item"><a class="pagination-link" href="#">3</a></li>
+            <li class="pagination-item"><a class="pagination-link" href="#">4</a></li>
+            <li class="pagination-item"><a class="pagination-link" href="#">5</a></li>
+            <li class="pagination-item">
+              <a class="pagination-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+  <footer class="" style="background: #FDD446;">
+    <div class="container">
+      <div class="row pt-5 pb-2">
+        <div class="col-md-6">
+          <div class="footer-main">
+            <a href="">
+              <img src="/img/footer/telegram-cloud-document-2-5413529813858129842 1.png" alt="">
+            </a>
+            <div class="footer_location mt-2">
+              <p>Россия, г. Москва, 119002</p>
+              <p>ул. Арбат 51/1/8А</p>
+              <p>e-mail: info@lionmax.ru</p>
+            </div>
+            <div class="footer_social_links mt-4">
+              <a class="me-3" href="">
+                <img src="/img/footer/twitter-3 1.png" alt="">
+              </a>
+              <a href="">
+                <img src="/img/footer/image 3.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row footer-mobile">
+            <div class="col footer_block">
+              <div class="footer_title">
+                NFT
+              </div>
+              <div class="footer_links">
+                <a href="">Что такое NFT</a>
+                <a href="">Создайте NFT
+                  <br> с нами</a>
+              </div>
+            </div>
+            <div class="col">
+              <div class="footer_title">
+                Компания
+              </div>
+              <div class="footer_links">
+                <a href="">О нас</a>
+                <a href="">Отправить запрос</a>
+              </div>
+            </div>
+            <div class="col">
+              <div class="footer_title">
+                Другое
+              </div>
+              <div class="footer_links">
+                <a href="">Условия использования</a>
+                <a href="">Политика
+                  конфиденциальности</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md footer_bottom">
+          <hr>
+          <div class="footer_icon">
+            <img src="/img/footer/Vector 2 1.png" alt="">
+          </div>
+          <div class="footer_company">
+            <p>@ tnft.ru Company, Inc</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+
+</html>
